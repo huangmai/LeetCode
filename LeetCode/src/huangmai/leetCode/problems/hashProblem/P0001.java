@@ -1,4 +1,4 @@
-package huangmai.leetCode.problems.hash;
+package huangmai.leetCode.problems.hashProblem;
 
 import java.util.HashMap;
 import java.util.Map;

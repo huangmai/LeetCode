@@ -1,4 +1,4 @@
-package huangmai.leetCode.problems.linkedList;
+package huangmai.leetCode.problems.linkedListProblem;
 
 import huangmai.leetCode.libClass.ListNode;
 
