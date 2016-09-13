@@ -11,7 +11,9 @@ public class LinkedListUtils {
 				t.next = new ListNode(value);
 				t = t.next;
 			}
-		}
-		return (ListNode)result.next;
+			return result.next;
+		}else{
+			return result;	
+		}		
 	}
 }
