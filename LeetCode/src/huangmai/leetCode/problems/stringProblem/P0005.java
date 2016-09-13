@@ -1,6 +1,6 @@
-package huangmai.leetCode;
+package huangmai.leetCode.problems.stringProblem;
 
-public class Solution {
+public class P0005 {
 	public String longestPalindrome(String s) {
         int sl = s.length();
         if(sl == 0){
@@ -23,11 +23,4 @@ public class Solution {
         }
         return s.substring(mi, mi + m);
     }
-    
-	public static void main(String[] args){
-		Solution s = new Solution();
-		System.out.println(s.longestPalindrome("aa"));
-		System.out.println(s.longestPalindrome("aba"));
-		System.out.println(s.longestPalindrome("a"));		
-	}
 }

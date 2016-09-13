@@ -12,6 +12,6 @@ public class LinkedListUtils {
 				t = t.next;
 			}
 		}
-		return result.next;
+		return (ListNode)result.next;
 	}
 }
