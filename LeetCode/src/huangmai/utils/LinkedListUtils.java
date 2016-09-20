@@ -12,8 +12,7 @@ public class LinkedListUtils {
 				t = t.next;
 			}
 			return result.next;
-		}else{
-			return result;	
-		}		
+		}
+		return result;
 	}
 }
