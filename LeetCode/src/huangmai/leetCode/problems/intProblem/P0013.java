@@ -1,6 +1,6 @@
-package huangmai.leetCode;
+package huangmai.leetCode.problems.intProblem;
 
-public class Solution {    
+public class P0013 {
 	private int tryUnderstand(StringBuilder p){
         switch(p.toString()){
         case "A":
@@ -55,9 +55,4 @@ public class Solution {
         n += tryUnderstand(sb) * p;
         return n;
     }
-	public static void main(String[] args){
-		Solution s = new Solution();
-		System.out.println(s.romanToInt("MMMDCXXXI"));
-		System.out.println(s.romanToInt("DCXXI"));
-	}
 }
