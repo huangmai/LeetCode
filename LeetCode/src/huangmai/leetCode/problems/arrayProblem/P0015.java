@@ -1,12 +1,6 @@
-package huangmai.leetCode;
+package huangmai.leetCode.problems.arrayProblem;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-public class Solution {    
+public class P0015 {
 	public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> r = new ArrayList<>();
         int n = nums.length;
@@ -23,8 +17,8 @@ public class Solution {
         }
         for(i = 0; i < n && nums[i] <= 0; i ++){
             if(i == 0 || nums[i] != nums[i - 1]){
-                for(j = 1; j < n - i; j ++){
-                    if(j == 1 || nums[j] != nums[j - 1]){
+                for(j = i + 1; j < n; j ++){
+                    if(j == i + 1 || nums[j] != nums[j - 1]){
                         s2 = -nums[i] - nums[j];
                         if(s2 < 0 || s2 < nums[j]){
                             break;
@@ -39,8 +33,4 @@ public class Solution {
         }
         return r;
     }
-	public static void main(String[] args){
-		Solution s = new Solution();
-		System.out.println(s.threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
-	}
 }
