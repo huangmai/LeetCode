@@ -1,5 +1,7 @@
 package huangmai.leetCode.problems.linkedListProblem;
 
+import huangmai.leetCode.libClass.ListNode;
+
 public class P0019 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode d = new ListNode(0), f = d, t = d;
