@@ -35,6 +35,10 @@ public class Solution {
 	
 	public static void main(String[] args){
 		Solution s = new Solution();
+		int i = 0;
+		int a = i, b = a + 1;
+		System.out.println(a);
+		System.out.println(b);
 		System.out.println(s.generateParenthesis(3));
 	}
 }
