@@ -2,7 +2,6 @@ package huangmai.leetCode.problems.arrayProblem;
 
 public class P0066 {
     public int[] plusOne(int[] digits) {
-        boolean c = true;
         for(int i = digits.length - 1; i >= 0; i --){
             if(digits[i] == 9){
                 digits[i] = 0;
