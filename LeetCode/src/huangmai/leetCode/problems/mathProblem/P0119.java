@@ -1,5 +1,8 @@
 package huangmai.leetCode.problems.mathProblem;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class P0119 {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> r = new ArrayList<>(rowIndex + 1);
