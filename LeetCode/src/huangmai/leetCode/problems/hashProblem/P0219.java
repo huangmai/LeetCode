@@ -1,5 +1,8 @@
 package huangmai.leetCode.problems.hashProblem;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class P0219 {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         if(k <= 0){
