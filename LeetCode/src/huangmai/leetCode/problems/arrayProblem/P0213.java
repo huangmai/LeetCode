@@ -1,6 +1,6 @@
 package huangmai.leetCode.problems.arrayProblem;
 
-public class P0337 {
+public class P0213 {
     public int rob(int[] nums) {
         int a, b, c, t;
         if(nums.length == 1){
