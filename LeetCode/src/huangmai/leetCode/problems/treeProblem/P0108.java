@@ -1,5 +1,7 @@
 package huangmai.leetCode.problems.treeProblem;
 
+import huangmai.leetCode.libClass.TreeNode;
+
 public class P0108 {
     private TreeNode toBST(int[] nums, int s, int e){
         if(s > e){
