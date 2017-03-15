@@ -27,7 +27,7 @@ public class TreeNodeUtils {
 				p.left = new TreeNode(vals[i]);
 				pq.offer(p.left);
 			}
-			if(vals[i + 1] != null){
+			if(i < vals.length - 1 && vals[i + 1] != null){
 				p.right = new TreeNode(vals[i + 1]);
 				pq.offer(p.right);
 			}
