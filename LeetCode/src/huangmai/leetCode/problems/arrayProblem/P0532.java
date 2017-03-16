@@ -1,5 +1,7 @@
 package huangmai.leetCode.problems.arrayProblem;
 
+import java.util.Arrays;
+
 public class P0532 {
     public int findPairs(int[] nums, int k) {
         Arrays.sort(nums);
